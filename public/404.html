@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>BANESTES - Redirecionando</title>
+  <script type="text/javascript">
+    // Função para obter o nome do repositório
+    function getRepoName() {
+      var pathSegments = window.location.pathname.split('/');
+      if (pathSegments.length > 1) {
+        return pathSegments[1]; // O nome do repositório é o primeiro segmento após a barra
+      }
+      return '';
+    }
+
+    // Obter o caminho completo atual
+    var fullPath = window.location.pathname;
+    
+    // Obter o nome do repositório
+    var repoName = getRepoName();
+    
+    // Salvar o caminho atual na sessionStorage para redirecionamento após o carregamento
+    sessionStorage.setItem('redirectPath', fullPath);
+    
+    // Construir a URL de redirecionamento (raiz do repositório)
+    var redirectUrl = window.location.origin;
+    
+    if (repoName) {
+      redirectUrl += '/' + repoName;
+    }
+    
+    // Redirecionar para a raiz do repositório
+    window.location.replace(redirectUrl);
+  </script>
+</head>
+<body>
+  <h1>Redirecionando...</h1>
+  <p>Se você não for redirecionado automaticamente, <a href="/">clique aqui</a>.</p>
+</body>
+</html>
