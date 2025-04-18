@@ -9,9 +9,9 @@ Bem-vindo ao repositório do **BANESTES - Sistema Bancário**, um sistema modern
 
 ---
 
-## 📷 Preview
+## Feito por:
 
-<img src="public/preview.png" alt="Preview do sistema" width="100%" />
+- Marcos Vinicius Silva Torres
 
 ---
 
