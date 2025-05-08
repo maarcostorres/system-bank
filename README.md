@@ -1,4 +1,4 @@
-# 💰 BANESTES - Sistema Bancário
+#  BANESTES - Sistema Bancário
 
 Bem-vindo ao repositório do **BANESTES - Sistema Bancário**, um sistema moderno para gerenciamento de **clientes, contas e agências bancárias**, desenvolvido com **React + TypeScript + Vite**.
 
@@ -15,30 +15,20 @@ Bem-vindo ao repositório do **BANESTES - Sistema Bancário**, um sistema modern
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
-- 📋 Listagem de clientes
-- 🔍 Busca por CPF/CNPJ
-- 👤 Visualização de dados do cliente
-- 🏦 Gerenciamento de agências
-- 💳 Controle de contas bancárias
-- 💡 Interface responsiva e moderna
+-  Listagem de clientes
+-  Busca por CPF/CNPJ
+-  Visualização de dados do cliente
+-  Gerenciamento de agências
+-  Controle de contas bancárias
+-  Interface responsiva e moderna
 
 ---
 
-## 🧪 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
 - [GitHub Pages](https://pages.github.com/)
-
----
-
-## ⚙️ Como rodar o projeto localmente
-
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
