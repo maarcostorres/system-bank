@@ -2,7 +2,7 @@ import { useParams, useNavigate } from "react-router-dom"
 import ClientDetails from "../components/ClientDetails"
 
 const ClientDetailsPage = () => {
-  const { cpfCnpj } = useParams<{ cpfCnpj?: string }>() // Ajuste no tipo para permitir undefined
+  const { cpfCnpj } = useParams<{ cpfCnpj?: string }>() 
   const navigate = useNavigate()
 
   const handleBack = () => {
@@ -21,7 +21,7 @@ const ClientDetailsPage = () => {
     )
   }
 
-  return <ClientDetails cpfCnpj={cpfCnpj} onBack={handleBack} /> // Garantir que cpfCnpj seja string
+  return <ClientDetails cpfCnpj={cpfCnpj} onBack={handleBack} /> // Garantir que o CPF seja string
 }
 
 export default ClientDetailsPage
