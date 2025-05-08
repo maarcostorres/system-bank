@@ -54,7 +54,7 @@ const ClientDetails: React.FC<ClientDetailsProps> = ({ cpfCnpj, onBack }) => {
     fetchClienteData()
   }, [cpfCnpj])
 
-  // Formatar CPF/CNPJ para exibição
+  // Exibir CPF/CNPJ
   const formatCpfCnpj = (cpfCnpj: string) => {
     cpfCnpj = cpfCnpj.replace(/\D/g, "")
     if (cpfCnpj.length === 11) {
@@ -65,7 +65,7 @@ const ClientDetails: React.FC<ClientDetailsProps> = ({ cpfCnpj, onBack }) => {
     return cpfCnpj
   }
 
-  // Formatar data para exibição
+  // Exibir data
   const formatDate = (date: Date) => {
     if (!date || isNaN(date.getTime())) {
       return "Data inválida"
@@ -78,7 +78,7 @@ const ClientDetails: React.FC<ClientDetailsProps> = ({ cpfCnpj, onBack }) => {
     })
   }
 
-  // Formatar valor monetário para exibição
+  // Exibir valor
   const formatCurrency = (value: number) => {
     return value.toLocaleString("pt-BR", {
       style: "currency",
@@ -308,7 +308,7 @@ const ClientDetails: React.FC<ClientDetailsProps> = ({ cpfCnpj, onBack }) => {
 
 export default ClientDetails
 
-// Atualizar o estilo das abas para corresponder ao design das imagens
+// Corresponder a design das imagens
 const style = document.createElement("style")
 style.textContent = `
   .client-details {
