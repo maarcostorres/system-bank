@@ -1,4 +1,3 @@
-// Interfaces dos dados conforme especificado
 export interface Cliente {
   id: string
   cpfCnpj: string
