@@ -18,11 +18,10 @@ Bem-vindo ao repositório do **BANESTES - Sistema Bancário**, um sistema modern
 ##  Funcionalidades
 
 -  Listagem de clientes
--  Busca por CPF/CNPJ
+-  Busca por CPF
 -  Visualização de dados do cliente
 -  Gerenciamento de agências
 -  Controle de contas bancárias
--  Interface responsiva e moderna
 
 ---
 
